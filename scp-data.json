@@ -1,0 +1,32 @@
+[
+  {
+    "subject": "SCP-002",
+    "class": "Euclid",
+    "containment": "SCP-002 must remain connected to a power supply at all times to keep it in a dormant state. In case of power loss, the area must be evacuated and the emergency barrier closed until power is restored. Only Level 3 personnel or higher may enter, and only with proper escort and quarantine procedures.",
+    "description": "SCP-002 is a fleshy, tumor-like mass with an interior resembling a small apartment. The furniture inside appears to be made from human biological materials. The object is responsible for several disappearances and seems to convert living humans into furnishings."
+  },
+  {
+    "subject": "SCP-003",
+    "class": "Euclid",
+    "containment": "SCP-003 must be kept above 35°C, ideally over 100°C. No complex living organisms may contact it. In case of power failure, personnel must use body heat to maintain temperature. All contact requires sterilization procedures.",
+    "description": "SCP-003 consists of two parts: a sentient, ancient biological computer and a rune-covered stone tablet. The computer grows rapidly if cooled, converting nearby materials. It interacts with living organisms and can mimic their structure."
+  },
+  {
+    "subject": "SCP-004",
+    "class": "Euclid",
+    "containment": "Keys and components must not leave the site except with Level 4 security. Only authorized personnel may access or use the keys. Any breach requires immediate lockdown and warhead activation if necessary.",
+    "description": "SCP-004 is an old barn door with twelve keys. Each key opens the door to a different, often dangerous dimension. Some keys cause fatal effects. The site exhibits time and space anomalies, and the door leads to a vast, impossible space."
+  },
+  {
+    "subject": "SCP-005",
+    "class": "Safe",
+    "containment": "SCP-005 requires Level 4 approval for removal from containment. It must not be used for unauthorized purposes. Any misuse or removal will result in termination.",
+    "description": "SCP-005 is an ornate key from the 1920s that can open any lock, mechanical or digital. Its origin is unknown. It may be used as a security pass replacement under strict supervision."
+  },
+  {
+    "subject": "SCP-006",
+    "class": "Safe",
+    "containment": "Secrecy is required. All personnel must wear special suits and be briefed before interacting. Any contact with SCP-006 or its liquid requires quarantine and termination after study.",
+    "description": "SCP-006 is a spring whose water grants remarkable regenerative and healing properties to humans. The site is disguised as a chemical factory. The water destroys pathogens and enhances the immune system."
+  }
+]
