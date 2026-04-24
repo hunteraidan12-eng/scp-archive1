@@ -1,32 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCP-003</title>
+<html>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <script defer src="js/menu.js"></script>
-</head>
+    <head>
+        <title>SCP-003 - SCP Foundation</title>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
 
-<body>
-
-    <!-- TOP NAV -->
-    <nav class="top-nav">
-        <div class="nav-content">
-            <a href="index.html">
-                <img class="nav-logo" src="scp-archivelogo.png" alt="SCP Archive Logo">
-            </a>
-            <a href="scp-002.html">SCP-002</a>
-            <a href="scp-003.html">SCP-003</a>
-            <a href="scp-004.html">SCP-004</a>
-            <a href="scp-005.html">SCP-005</a>
-            <a href="scp-006.html">SCP-006</a>
-        </div>
-    </nav>
-
-    <!-- MAIN CONTENT -->
-  <main>
+    <body>
+        <nav class="top-nav">
+            <div class="nav-content">
+                <a href="index.html"><img class="nav-logo" src="../images/scp archivelogo.png" alt="SCP Archive Logo" /></a>
+                <a href="scp-002.html">SCP-002</a>
+                <a href="scp-003.html">SCP-003</a>
+                <a href="scp-004.html">SCP-004</a>
+                <a href="scp-005.html">SCP-005</a>
+                <a href="scp-006.html">SCP-006</a>
+            </div>
+        </nav>
+        <nav class="side-nav">
+            <a href="scp-002.html"><span class="icon">&#128273;</span>SCP-002</a>
+            <a href="scp-003.html"><span class="icon">&#128273;</span>SCP-003</a>
+            <a href="scp-004.html"><span class="icon">&#128273;</span>SCP-004</a>
+            <a href="scp-005.html"><span class="icon">&#128273;</span>SCP-005</a>
+            <a href="scp-006.html"><span class="icon">&#128273;</span>SCP-006</a>
+            <a href="index.html"><span class="icon">&#128273;</span>HOME</a>
+        </nav>
+        <div class="side-nav-backdrop" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.25);z-index:1000;"></div>
+        <script defer src="../js/menu.js"></script>
+        <main>
             <h1><b>Item #: </b>SCP-003</h1>
             <h2><b>Object Class: </b>Euclid</h2>
             <h3>Special Containment Procedures:</h3>
@@ -35,6 +35,7 @@
             <p>Personnel who enter SCP-003's containment area must first be examined for body parasites of Category IV or higher complexity, and sterilized if such organisms are present. All personnel who have come in physical contact with SCP-003-1 are to immediately report for sterilization afterwards.</p>
             <p>SCP-003-1 must not be removed from SCP-003-2 except in case of emergency procedures detailed above. Any significant change in SCP-003-2's rune activity (including pattern, frequency, or color) should be reported within three (3) hours of occurrence. Cessation of rune activity must be reported immediately. SCP-003-2 must be supplied with power via the source designated Generator 003-IX at all times.</p>
             <h3>Description:</h3>
+            <div id="scp-description">
             <p>SCP-003 consists of two related components of separate origin, referred to as SCP-003-1 and SCP-003-2.</p>
             <p>SCP-003-1 appears to be composed of chitin, hair, and nails of unknown biology, arranged in a configuration similar to that of a computer motherboard. Testing reveals SCP-003-1 to predate earliest known circuit boards by a factor of thousands of years. SCP-003-1 is considered sentient but not actively dangerous except under certain conditions.</p>
             <p>SCP-003-1 was found on a stone tablet, SCP-003-2, on which it currently resides. The runes on SCP-003-2 are not part of any known language, and emit pale, flickering light patterns.</p>
@@ -49,6 +50,8 @@
             <p>While growth is consistent in the first stage, in the second stage SCP-003-1's growth rate is diminished by 20-90% so long as SCP-003-1 remains in contact with living organic material. The percentage is determined by the complexity of the organism(s) in contact with SCP-003-1; SCP-003-1 appears to devote a large amount of processing power to analysis of living organic material.</p>
             <p>During each of SCP-003-1's growth stages, SCP-003-2 releases bursts of radiation that temporarily inhibit SCP-003-1's growth, or reverse this growth when the temperature of SCP-003-1 rises above 100°C. Similar radiation emissions have been replicated or recorded via other anomalous means.</p>
             <p>SCP-003-1's biology has been the subject of extensive study. Significant elements have been identified similar to SCP-███, SCP-1512, and SCP-2756, the latter two of which have no further confirmed connection with SCP-003-1 and no known connection with each other, and none of which are fully understood (technically, even less understood than SCP-003, thanks to the extensive cross-disciplinary research on the SCP-003 objects). To date, no convincing analysis has been put forward which satisfactorily explains SCP-003-1's connection to these SCP objects or others, nor its connection to modern technology beyond appearance (and potential mimicry via unknown mechanism).</p>
+            </div>
+           <button id="speechToggle" class="speech-btn">▶ Read Description</button>
             <h4>Addendum 003-01:</h4>
             <p>Acting on information gathered from linguistic analysis of SCP-003-2's runes and comparative data analysis, Research Team M03-Gloria has managed to establish a link between SCP-003 and [DATA EXPUNGED] for analysis of functions. SCP-003-1 must now be considered sentient, and is to be kept a minimum of 1 km from [DATA EXPUNGED] and the resulting "by-product" at all times.</p>
             <h4>Addendum 003-02:</h4>
@@ -64,6 +67,7 @@
             <h4>Addendum 003-05:</h4>
             <p>In light of the previous incident, O5-10 was removed from the O5 Council by joint decision of O5-██, O5-██, and O5-██. M03-Gloria procedures have been indefinitely suspended.</p>
         </main>
+        <script defer src="speech.js"></script>
     </body>
 
 </html>
